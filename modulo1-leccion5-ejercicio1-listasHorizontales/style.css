@@ -1,0 +1,9 @@
+.contenedor {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.item {
+  margin: 12px;
+}

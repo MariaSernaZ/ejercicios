@@ -1,0 +1,51 @@
+:root {
+  --color-principal: rgb(169, 184, 169);
+  --relleno: 20px;
+  --color: rgb(7, 7, 87);
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-principal);
+  padding: var(--relleno);
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--color);
+  margin: 0;
+}
+
+.subtitle {
+  color: grey;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: rgb(35, 98, 35);
+  text-decoration: none;
+}
+
+p a {
+  color: green;
+}

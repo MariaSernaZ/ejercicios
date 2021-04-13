@@ -1,0 +1,12 @@
+.header {
+  background-color: purple;
+  position: fixed;
+  color: wheat;
+  text-align: center;
+  height: 50px;
+}
+
+.container {
+  position: relative;
+  top: 50px;
+}

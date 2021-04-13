@@ -1,0 +1,25 @@
+.logo1 .logo2 {
+  display: block;
+}
+
+.logo1 {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 5px blue solid;
+}
+
+.box2 {
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.logo2 {
+  border: 5px blue solid;
+}
+
+.box2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}

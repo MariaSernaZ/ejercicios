@@ -1,0 +1,12 @@
+.cookies {
+  height: 100px;
+  background-color: khaki;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  position: relative;
+  bottom: 100px;
+}

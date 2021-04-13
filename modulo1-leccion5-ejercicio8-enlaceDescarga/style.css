@@ -1,0 +1,21 @@
+.pdf {
+  background-color: red;
+  color: white;
+  width: 40px;
+  height: 17px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  margin: 10px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.472);
+}

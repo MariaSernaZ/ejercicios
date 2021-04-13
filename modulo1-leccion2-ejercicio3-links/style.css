@@ -1,0 +1,13 @@
+.links {
+  color: red;
+}
+
+.e1:hover {
+  background-color: blue;
+  color: white;
+}
+
+.e2:hover {
+  background-color: green;
+  color: white;
+}

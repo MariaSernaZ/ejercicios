@@ -1,0 +1,48 @@
+* {
+  font-size: 18px;
+  color: darkblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}
+
+.header {
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+}
+
+.item.yellow {
+  background-color: yellow;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.item.blue {
+  background-color: lightblue;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.item.pink {
+  background-color: pink;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.footer {
+  background-color: rgb(134, 202, 134);
+  text-align: center;
+  padding: 10px;
+}
