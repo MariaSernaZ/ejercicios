@@ -1,0 +1,44 @@
+.page {
+  background: grey;
+}
+
+.menu-list {
+  background: greenyellow;
+}
+
+.content {
+  background: yellow;
+}
+
+.related-info {
+  background: wheat;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*ipad*/
+@media all and (min-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu {
+    width: 25%;
+    padding-right: 20px;
+  }
+}
+
+/*laptop*/
+@media all and (min-width: 1000px) {
+  .main-column {
+    display: flex;
+    flex-direction: row;
+  }
+  .yellow .grey {
+    flex-basis: 50%;
+  }
+}

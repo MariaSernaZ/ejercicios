@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*el main tiene que ocupar el 100% de la pantalla*/
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cc212a;
+  font-weight: 600px;
+}
+
+.title-item {
+  display: block; /*si hubiésemos usado la etiqueta div, no se usaría esta propiedad*/
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 3px #cc212a solid;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #cc212a;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  transform: translate(0, -50%);
+}
+
+/*incliomos las partes que queremos cambiar frente al diseño mobile*/
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .logo {
+    transform: translate(0, 0);
+  }
+}

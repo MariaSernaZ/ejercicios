@@ -1,0 +1,30 @@
+.body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 20% 1fr 20%;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+  background-color: pink;
+  grid-column: span 12;
+  grid-row: span 1;
+}
+
+.menu {
+  background-color: purple;
+  grid-column: span 6;
+  grid-row: span 3;
+}
+
+.content {
+  background-color: salmon;
+  grid-column: span 6;
+  grid-row: span 3;
+}
+
+.footer {
+  background-color: lightblue;
+  grid-column: span 12;
+  grid-row: span 1;
+}

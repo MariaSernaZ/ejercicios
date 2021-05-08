@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EJERCICIO 3</title>
+</head>
+<body>
+    <!--El formulario en sí será el que se muestra en la imagen inferior. Vamos a crear los siguientes campos:
+        Un campo oculto que muestre el navegador que estamos usando (pondremos el valor directamente en el HTML usando el atributo value)
+        Un campo numérico donde podamos introducir nuestra altura en centímetros y que tenga como máximo 250 cm y como mínimo 50cm y por defecto tenga un valor de 150 cm
+        Un área de texto donde escribir un comentario para tu perfil
+        Un tipo de campo que se pueda activar y desactivar y en el que el usuario indique que ha aceptado los términos y condiciones de Facebook-->
+
+        <section>
+            <h1>Create an account</h1>
+                <p>It's free and always will be</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <div class="rowform">
+                        <label for="firstname"></label>
+                        <input type="text"
+                                id="firstname"
+                                name="user_name"
+                                placeholder="First name"
+                                autofocus
+                                autocomplete="off"
+                                required
+                                maxlength="12" >
+                    </div>
+                    
+                <div>
+                    <label for="surname"></label>
+                    <input type="text"
+                            id="surname"
+                            name="user_surname"
+                            placeholder="Surname"
+                            autofocus
+                            autocomplete="off"
+                            required
+                            maxlength="12" >
+                </div>
+        
+                <div class="rowform">
+                    <label for="email_user"></label>
+                    <input type="email"
+                            id="email_user"
+                            name="user_email"
+                            placeholder="Email">
+               </div>
+        
+               <div class="rowform">
+                    <label for="email_user2"></label>
+                    <input type="tel"
+                            id="email_user2"
+                            name="user_email2"
+                            placeholder="Mobile number">
+               </div>
+
+               <div class="rowform">
+                    <label for="password"></label>
+                    <input type="password"
+                        id="password"
+                        name="user_password"
+                        placeholder="New password">
+                </div>
+                </fieldset>
+
+                <div class="rowform">
+					<label for="birthday">Birthday</label>
+
+					<select name="birth" id="birth_date" required>
+						<option selected disabled value="day">Day</option>
+						<option value="day">1</option>
+						<option value="day">2</option>
+						<option value="day">3</option>
+                        <option value="day">4</option>
+                        <option value="day">5</option>
+                        <option value="day">6</option>
+                        <option value="day">7</option>
+                        <option value="day">8</option>
+                        <option value="day">9</option>
+                        <option value="day">10</option>
+					</select>
+
+                    <select name="birth" id="birth_date" required>
+						<option selected disabled value="month">Month</option>
+						<option value="month">1</option>
+						<option value="month">2</option>
+						<option value="month">3</option>
+                        <option value="month">4</option>
+                        <option value="month">5</option>
+                        <option value="month">6</option>
+                        <option value="month">7</option>
+                        <option value="month">8</option>
+                        <option value="month">9</option>
+                        <option value="month">10</option>
+                        <option value="month">11</option>
+                        <option value="month">12</option>
+					</select>
+
+                    <select name="birth" id="birth_date" required>
+						<option selected disabled value="year">Year</option>
+						<option value="year">1990</option>
+						<option value="year">1991</option>
+						<option value="year">1992</option>
+                        <option value="year">1993</option>
+                        <option value="year">1994</option>
+                        <option value="year">1995</option>
+                        <option value="year">1996</option>
+                        <option value="year">1997</option>
+                        <option value="year">1998</option>
+                        <option value="year">1999</option>
+                        <option value="year">2000</option>
+					</select>
+
+                    <small>Why do I need to provide my date of birth?</small>
+				</div>
+        
+                <fieldset class="rowform">
+		                <input type="radio"
+					   	        name="gender"
+					   	        id="female"
+					   	        value="female">
+                        <label for="female">Female</label>
+					
+					    <input type="radio"
+					   	        name="gender"
+					   	        id="male"
+					   	        value="male">
+                        <label for="male">Male</label>
+                </fieldset>
+
+                <fieldset class="rowform">
+                    <label for="Altura">
+                        <input type="number" min="150cm" max="200cm" step="2">
+                    </label>
+                    <input type="range">
+                </fieldset>
+
+                <div class="rowform">
+                    <label for="comments">Comentarios:</label>
+                    <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+                </div>
+
+                <div class="rowform">
+                    <input type="checkbox" required>
+
+                    <label for="conditions"> By clicking Create an account, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</label>
+                </div>
+
+                <input type="submit" value="Create an account">
+                <button type=“reset” value="Restaurar los valores por defecto">Restaurar los valores por defecto</button>
+
+                <input type="hidden"
+                        name="redirect"
+                        value="www.firefox.es">
+                
+                
+            </form>
+        </section>
+
+</body>
+</html>

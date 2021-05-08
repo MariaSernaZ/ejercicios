@@ -1,0 +1,83 @@
+.container {
+  box-sizing: border-box;
+}
+.title {
+  font-size: 24px;
+  font-family: Rubik;
+  color: #099d8d;
+  text-align: center;
+  width: 127;
+  height: 45px;
+  font-weight: 500;
+}
+.reachout {
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #54585a;
+}
+span {
+  color: #14d9c4;
+}
+.field {
+  font-size: 12px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: #54585a;
+  padding: 20px;
+}
+
+.contact {
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+.submit {
+  background-color: #099d8d;
+  width: 290px;
+  height: 45px;
+  margin: 30px 0 0;
+  padding: 11px 158px 12px 74px;
+  border-radius: 4px;
+  background-color: var (--blue-green);
+}
+
+/*@keyframes intro {
+  from {
+    opacity: 0;
+    transform: scale(10) rotate(-150deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+.intro:hover {
+  color: #3cdbc0;
+  animation-name: intro;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+.contact {
+  cursor: pointer;
+  font-size: 100px;
+  color: #3cdbc0;
+  animation-name: intro;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: 3s ease 2s forwards;
+}
+*/
+
+.intro {
+  position: relative;
+  top: -35px;
+  transition: 1s all ease;
+}
+
+.contact:focus + .intro {
+  top: -50px; /*para que vuelva a su posición inicial*/
+}
+
+/*hay que cambiar los elementos en el html, poniendo el input antes que el label y borrar lo que pone en el placeholder*/
