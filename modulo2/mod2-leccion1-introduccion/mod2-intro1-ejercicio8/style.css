@@ -1,0 +1,17 @@
+.js-button1 {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border: 2px rgb(7, 65, 61) dotted;
+  background-color: rgb(54, 173, 165);
+  color: lightyellow;
+}
+
+.js-button2 {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border: 2px rgb(3, 85, 3) dashed;
+  background-color: rgb(75, 146, 90, 0.4);
+  color: lightyellow;
+}
