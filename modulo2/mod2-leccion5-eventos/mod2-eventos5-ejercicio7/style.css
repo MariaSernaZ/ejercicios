@@ -1,0 +1,11 @@
+.js-button {
+  background-color: rgb(231, 165, 211);
+  width: 150px;
+  height: 50px;
+}
+
+.js-changeButton {
+  background-color: lightblue;
+  width: 150px;
+  height: 50px;
+}
