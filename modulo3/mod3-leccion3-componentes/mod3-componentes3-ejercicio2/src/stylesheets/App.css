@@ -1,0 +1,10 @@
+.Half {
+  width:50vw;
+  height: 100vh;
+  background-color:blue;
+}
+
+.Text{
+  display: flex;
+  flex-direction: row;
+}

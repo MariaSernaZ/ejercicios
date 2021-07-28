@@ -1,0 +1,35 @@
+:root {
+  --tipoDeLetra: "Times New Roman", Times;
+  --ancho: 400px;
+  --altoTotal: 500px;
+}
+
+.main {
+  width: var(--ancho);
+  height: 500px;
+  border: 5px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  font-family: var(--tipoDeLetra);
+  background-color: lightblue;
+  width: var(--ancho);
+  height: 250px;
+  padding: 20px;
+  border: 15px solid blue;
+  box-sizing: border-box;
+}
+
+.box:hover {
+  background-color: lightpink;
+}
+
+.linea {
+  background-color: green;
+}
+
+.box2 {
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,17 @@
+.title {
+  font-size: 72px;
+}
+
+.menu a {
+  color: blue;
+}
+
+.header .menu {
+  text-transform: uppercase;
+  background-color: red;
+}
+
+.content {
+  color: blue;
+  background-color: lightblue;
+}
